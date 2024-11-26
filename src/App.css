@@ -36,3 +36,19 @@
     transform: rotate(360deg);
   }
 }
+.slider-box {
+  display: flex;
+  align-items: center;
+  padding: 2rem;
+  justify-content: center;
+}
+.images {
+  width: 800px;
+  height: 500px;
+}
+
+.left-arrow,
+.right-arrow {
+  height: 120px;
+  cursor: pointer;
+}
